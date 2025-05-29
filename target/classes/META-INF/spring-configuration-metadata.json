@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "http.header",
+      "type": "com.sasha.mts.config.HeaderProperties",
+      "sourceType": "com.sasha.mts.config.HeaderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "http.header.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.sasha.mts.config.HeaderProperties"
+    },
+    {
+      "name": "http.header.name",
+      "type": "java.lang.String",
+      "sourceType": "com.sasha.mts.config.HeaderProperties"
+    },
+    {
+      "name": "http.header.value",
+      "type": "java.lang.String",
+      "sourceType": "com.sasha.mts.config.HeaderProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
